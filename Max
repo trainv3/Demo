@@ -2,6 +2,7 @@
 #include<stdio.h>
 #include<conio.h>
 // CHUONG CHAY BANG C++
+//UH HA
 using namespace std;
 int a,b,c,mx;
 int main()
