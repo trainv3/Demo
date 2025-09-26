@@ -1,0 +1,22 @@
+#include<iostream>
+#include<stdio.h>
+#include<conio.h>
+using namespace std;
+int a,b,c,mx;
+int main()
+{
+ cout<<"\n Nhap a:"; 
+ cin>>a;
+ cout<<"\n Nhap b:"; 
+ cin>>b;
+ cout<<"\n Nhap c:"; 
+ cin>>c;
+ mx=a;
+  if(mx<b)
+        mx=b;
+   if(mx<c) 
+        mx=c;
+  cout<<"\n Gia tri lan nhat:"<<mx<<endl;
+  return 0;
+getch();
+}
